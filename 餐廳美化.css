@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --其顔色: 	#eb4034;
+    --字幕顔色: #fff;
+    --背景顔色: #181818;
+    --界面字體: 5rem;
+    --其他界面字體: 4rem; 
+    --關於字體: 50px;
+    --p字體: 1.5rem;
+}
+
+*::selection {
+    color: var(--字幕顔色);
+    background: var(--其顔色);
+}
+
+body {
+    background: var(--背景顔色);
+}
+
+/*::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #eb4034;
+}*/
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--背景顔色);
+}
+
+.標志 {
+    color: var(--其顔色);
+    font-weight: 500;
+    font-size: 2.4em;
+}
+
+.應導覽 {
+    display: flex;
+}
+
+.應導覽 a {
+    color: var(--字幕顔色);
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.應導覽 a:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+#yt-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+     padding: 70px 17%;
+     color: var(--字幕顔色);
+}
+
+.界面 {
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.界面img img {
+    width: 450px;
+    max-width: 100%;
+}
+
+.界面 h1 {
+    font-size: var(--界面字體);
+}
+
+.界面 h2 {
+    margin: 1rem 0 2rem;
+}
+
+.按鈕 {
+    display: inline-block;
+    padding: 10px;
+    background: var(--其顔色);
+    color: var(--字幕顔色);
+    border-radius: 5px;
+}
+
+.關於 h1 {
+    font-size: var(--關於字體);
+    text-align: center;
+}
+
+.關於 p {
+    margin: 8px;
+    line-height: 1.7em;
+    font-size: var(--p字體);
+}
+
+.標題 {
+    text-align: center;
+}
+
+.標題 h1 {
+    font-size: var(--其他界面字體);
+}
+
+.標題 span {
+    font-size: 20px;
+}
+
+.菜單内容 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.菜單盒img img {
+    width: 200px;
+    height: 189px;
+}
+
+.菜單盒 {
+    /*position: relative;*/
+    margin-top: 3rem;
+    width: 230px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2e2b2b;
+    border-radius: 20px;
+}
+
+.菜單盒 h2 {
+    text-decoration: underline;
+}
+
+.菜單盒 h3 {
+   font-size: 18px;
+   margin: 4px;
+}
+
+.菜單盒 span {
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.菜單盒 button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    width: 150px;
+    height: 45px;
+    margin: 5px;
+    background: #3d3b3b;
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 10px;
+    color: var(--字幕顔色);
+}
+
+.菜單盒 button:hover {
+    background: #595a5c;
+    transition: 0.5s;
+}
+
+.菜單盒:hover {
+    width: 250px;
+    height: 450px;
+    transition: 0.3s;
+}
+
+.訂單 {
+    text-align: center;
+}
+
+.訂單 span {
+    font-size: 30px;
+    font-family: serif;
+    margin: 8px;
+    line-height: 50px;
+}
+
+.訂單 #訂單按鈕 {
+    width: 75px;
+}
