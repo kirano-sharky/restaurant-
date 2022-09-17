@@ -230,3 +230,32 @@ section {
     /*outline-style: solid;*/
     box-shadow: 0 0 0 2px aliceblue;
 }
+
+.服務内容 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.5rem;
+    align-items: center;
+    margin: 20px;
+}
+
+.服務盒 {
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.服務盒 img {
+    width: 120px;
+    height: 120px;
+}
+
+.服務盒 h2 {
+    margin: 4px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.服務盒 span {
+    line-height: 1.5;
+    /*line-height: 1.7*/;
+}
