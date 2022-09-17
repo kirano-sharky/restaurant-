@@ -193,6 +193,12 @@ section {
     transition: 0.5s;
 }
 
+.菜單盒 button:focus {
+    outline-color: transparent;
+    /*outline-style: solid;*/
+    box-shadow: 0 0 0 2px aliceblue;
+}
+
 .菜單盒:hover {
     width: 250px;
     height: 450px;
@@ -205,9 +211,8 @@ section {
 
 .訂單 span {
     font-size: 30px;
-    font-family: serif;
-    margin: 8px;
-    line-height: 50px;
+    font-family: Arial;
+    line-height: 60px;
 }
 
 .訂單 #訂單按鈕 {
@@ -263,10 +268,29 @@ section {
 }
 
 .會員 {
-    background: #595a5c;
+    background: #3d3b3b;
     padding: 65px;
     text-align: center;
     max-width: 85%;
     margin: 100px;
     border-radius: 10px;
+}
+
+.會員 #會員按鈕 {
+    font-size: 25px;
+    width: 150px;
+    height: 55px;
+    margin: 5px;
+}
+
+.會員 #會員按鈕:hover {
+    background: #fff;
+    color: #181818;
+    transition: 0.3s;
+}
+
+.會員 #會員按鈕:focus {
+    outline-color: transparent;
+    /*outline-style: solid;*/
+    box-shadow: 0 0 0 2px aliceblue;
 }
