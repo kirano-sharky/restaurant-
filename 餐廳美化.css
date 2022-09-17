@@ -261,3 +261,12 @@ section {
     line-height: 1.5;
     /*line-height: 1.7*/;
 }
+
+.會員 {
+    background: #595a5c;
+    padding: 65px;
+    text-align: center;
+    max-width: 85%;
+    margin: 100px;
+    border-radius: 10px;
+}
