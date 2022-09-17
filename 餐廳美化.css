@@ -109,6 +109,8 @@ section {
     background: var(--其顔色);
     color: var(--字幕顔色);
     border-radius: 5px;
+    border-width: 0px;
+    cursor: pointer;
 }
 
 .關於 h1 {
