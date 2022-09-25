@@ -341,3 +341,20 @@ section {
     bottom: -8px;
     background: var(--其顔色);
 }
+
+.一起486 ul li:not(:last-child) {
+    margin-bottom: 13px;
+}
+
+.一起486 ul li a {
+    color: #9898a9;
+    display: block;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.一起486 ul li a:hover {
+    color: var(--字幕顔色);
+    transform: translateX(-10px);
+}
